@@ -1,0 +1,50 @@
+GET http://localhost:5000/api/customers/21
+
+###
+POST http://localhost:5000/api/customers
+Content-Type: application/json
+
+{
+    "first_name": "John k",
+    "last_name": "Doe",
+    "phone_number": "1234567891"
+    }
+### 
+### Get all customers
+GET http://localhost:5000/api/customers
+Content-Type: application/json
+
+###
+
+### Get customer by ID
+GET http://localhost:5000/api/customers/1
+Content-Type: application/json
+
+###
+
+### Add new customer
+POST http://localhost:5000/api/customers
+Content-Type: application/json
+
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "phone_number": "1234567787"
+}
+
+###
+
+### Update customer
+PUT http://localhost:5000/api/customers/21
+Content-Type: application/json
+
+{
+  "first_name": "Jane",
+  "last_name": "Doe k",
+  "phone_number": "0987654321"
+}
+
+###
+
+### Delete customer
+DELETE http://localhost:5000/api/customers/35
