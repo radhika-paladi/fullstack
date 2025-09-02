@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Edit/Delete Buttons */
+button.edit {
+  background-color: #28a745; /* green */
+}
+
+button.edit:hover {
+  background-color: #1e7e34;
+}
+
+button.delete {
+  background-color: #dc3545; /* red */
+}
+
+button.delete:hover {
+  background-color: #a71d2a;
+}
+
+/* Highlight selected row */
+tr.selected {
+  background-color: #ffeeba !important; /* light yellow */
+}
+
+/* Optional: cursor pointer for table rows */
+tr:hover {
+  cursor: pointer;
+  background-color: #e9ecef; /* light grey on hover */
+}
+.page-color{
+color:#213896
+}
+.container{
+  background-color: rgba(213, 221, 221, 0.008);
+}
